@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Fireninja</title>
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="stylesheet" href="Styles2.css">
+    <script defer src="scripts.js"></script>
+  </head>
+  <body>
+
+    <!-- Social Icons Bar -->
+    <div class="social-bar">
+      <a href="https://anilist.co/user/Fireninja/" target="_blank"> <img
+          src="Imgs/AniList.png"> </a>
+      <a onclick="copyDiscord()" href="#"><img src="Imgs/Discord.png"></a>
+      <!-- <a href="#"><img src="Imgs/Github.png"></a> -->
+      <a href="https://www.last.fm/user/Fireninja2343" target="_blank"><img src="Imgs/LastFM.png"></a>
+    </div>
+
+    <!-- Header -->
+    <header class="name">
+      <h1>Hi there, I'm</h1>
+      <h1>Fireninja</h1>
+      <p>I do 3D modeling, Code, Robotics and sometimes 2D art</p>
+    </header>
+    <hr>
+
+    <div id="popup">Copied discord username</div>
+
+    <!-- Gallery -->
+    <section class="gallery">
+      <div class="gallery-column">
+        <div class="tool-header normal" id="blenderTab"
+          onclick="expandTab(this)">
+          <img src="Imgs/Blender.png" alt="Blender">
+          <span>Blender</span>
+        </div>
+        <div class="masonry normal masonry-item">
+          <img src="Works/Blender/AstronSword.png">
+          <img src="Works/Blender/AstronSword2.png">
+          <img src="Works/Blender/CrestOfPatinnea.png">
+          <img src="Works/Blender/CrestOfTurrim.png">
+          <img src="Works/Blender/GlowingDagger.png">
+          <img src="Works/Blender/hammer.png">
+          <img src="Works/Blender/SpearCycles2.png">
+          <img src="Works/Blender/Render1.png">
+          <img src="Works/Blender/ACHead.png">
+          <img src="Works/Blender/AnvilAndSword.png">
+          <img src="Works/Blender/Ring2.png">
+          <img src="Works/Blender/SwordHairPin.png">
+          <img src="Works/Blender/OldSword.png">
+          <img src="Works/Blender/ACHead2.png">
+          <img src="Works/Blender/CrystalSword.png">
+          <img src="Works/Blender/Ring1.png">
+        </div>
+      </div>
+
+      <div id="line" class="line fade show"></div>
+
+      <div class="gallery-column">
+        <div class="tool-header" id="solidTab" onclick="expandTab(this)">
+          <img src="Imgs/Solidworks.png" alt="SolidWorks">
+          <span>SolidWorks</span>
+        </div>
+        <div class="masonry normal masonry-item">
+          <div class="img-container">
+            <img src="Works/SolidWorks/BikiniBottomHouse2Render.JPG"
+              class="base-img">
+            <img src="Works/SolidWorks/BikiniBottomHouse2LightsRender.JPG"
+              class="hover-img">
+          </div>
+          <div class="img-container">
+            <img src="Works/SolidWorks/BikiniBottomHouseRender.JPG"
+              class="base-img">
+            <img src="Works/SolidWorks/BikiniBottomHouseLightsRender.JPG"
+              class="hover-img">
+          </div>
+          <div class="img-container">
+            <img src="Works/SolidWorks/BikiniBottomHouse3Render.JPG"
+              class="base-img">
+            <img src="Works/SolidWorks/BikiniBottomHouse3LightsRender.JPG"
+              class="hover-img">
+          </div>
+          <img src="Works/SolidWorks/BigSword.png">
+          <img src="Works/SolidWorks/CoolFireSword.png">
+          <img src="Works/SolidWorks/CoolNonFIreSword.png">
+          <img src="Works/SolidWorks/staff.png">
+          <img src="Works/SolidWorks/Animations/HadesWeaponsRotatin.gif">
+          <img src="Works/SolidWorks/SwordKeyChain.jpg">
+          <img src="Works/SolidWorks/MechHand.png">
+          <img src="Works/SolidWorks/MechHand2.jpg">
+        </div>
+      </div>
+    </section>
+
+    <div id="modal" class="modal">
+
+      <!-- Modal Content (The Image) -->
+      <img class="modal-content" id="modalImg">
+    </div>
+
+  </body>
+</html>
